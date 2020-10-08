@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { AiOutlineLeft } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
-const userImg = require("./resource/memopresso.png");
+
 
 export default function ProfileTab() {
   {
@@ -23,7 +23,7 @@ export default function ProfileTab() {
       </div>
       <div className="content">
         <div className="info">
-          <img className="userImg" src={userImg} alt="memopresso user image" />
+          <img className="userImg" src={require("./resource/memopresso.png")} alt="memopresso user image" />
           <div className="pff">
            <div className="pffItem">
 	            <div>195</div>
@@ -39,7 +39,7 @@ export default function ProfileTab() {
             </div>
           </div>
         </div>
-        <div className="msg"></div>
+        <div className="msg"><b>MEMOPRESSO | 📌 Taiwan</b><br />Keep your memoris forever.</div>
         <div className="contact"></div>
         <div className="stories"></div>
         <div className="buttons"></div>
