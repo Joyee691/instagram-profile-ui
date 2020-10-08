@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { AiOutlineLeft } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
-
+import { AiOutlineDown } from "react-icons/ai";
 
 export default function ProfileTab() {
   {
@@ -39,9 +39,19 @@ export default function ProfileTab() {
             </div>
           </div>
         </div>
-        <div className="msg"><b>MEMOPRESSO | 📌 Taiwan</b><br />💌Keep your memories forever. 📍台灣✈️韓國<br />
-<a href="https://www.instagram.com/explore/tags/memopresso/">#memopresso</a> 分享你的列印美照✨<br />合作事宜請洽business@memopresso.com<br /><a href="https://l.instagram.com/?u=http%3A%2F%2Flinktr.ee%2Fmemopresso&e=ATPDi2Ya4FguZi31P3VesITK7MYiVR41UbBSPOcF6lsCkbg9sHzYLxo6C_PvNDqWcb_2KvtqPeq44MJP&s=1">linktr.ee/memopresso</a></div>
-        <div className="contact"></div>
+        <div className="msg">
+          <b>MEMOPRESSO | 📌 Taiwan</b><br />
+          💌Keep your memories forever. 📍台灣✈️韓國<br />
+          <a href="https://www.instagram.com/explore/tags/memopresso/">#memopresso</a> 分享你的列印美照✨<br />
+          合作事宜請洽business@memopresso.com<br />
+          <a href="https://l.instagram.com/?u=http%3A%2F%2Flinktr.ee%2Fmemopresso&e=ATPDi2Ya4FguZi31P3VesITK7MYiVR41UbBSPOcF6lsCkbg9sHzYLxo6C_PvNDqWcb_2KvtqPeq44MJP&s=1">linktr.ee/memopresso</a>
+        </div>
+        <div className="contactUs">
+          <button className="follow">Follow</button>
+          <button className="message">Message</button>
+          <button className="email">Email</button>
+          <button className="suggest"><AiOutlineDown /></button>
+        </div>
         <div className="stories"></div>
         <div className="buttons"></div>
         <div className="posts"></div>

@@ -63,6 +63,78 @@ a:hover, a:visited, a:link, a:active{
 
 .msg{
   font-size:14px;
+  line-height:1.5;
+}
+
+.contactUs{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+}
+
+.follow{
+  flex:3;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd
+}
+
+.message{
+  flex:3;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  background-color:white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.email{
+  flex:3;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  background-color:white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.suggest{
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  background-color:white;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
 
 
@@ -72,9 +144,7 @@ a:hover, a:visited, a:link, a:active{
 
 
 
-
-
-.showMoreBtn{
+.showMoreBtn {
   width:100%;
   display: inline-block;
   padding: 6px 12px;
