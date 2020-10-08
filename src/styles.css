@@ -1,5 +1,11 @@
 body {
   background-color: #eee;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
+  color:#5851DB;
 }
 
 .container {
