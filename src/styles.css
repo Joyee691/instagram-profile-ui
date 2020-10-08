@@ -148,16 +148,17 @@ background-color:pink;
 .buttons{
   margin-top:5px;
   border-top:#bcbcbc  solid 1px;
-  display:flex;
+  /*display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around;*/
 }
 
 .buttons>button{
- background-color:transparent;
- color:#bcbcbc;
- font-size: 25px;
- border:none;
+  width:33.333%;
+  background-color:transparent;
+  color:#bcbcbc;
+  font-size: 25px;
+  border:none;
 }
 
 
