@@ -24,9 +24,20 @@ export default function ProfileTab() {
       <div className="content">
         <div className="info">
           <img className="userImg" src={userImg} alt="memopresso user image" />
-          <ul className="pff">
-            <li></li>
-          </ul>
+          <div className="pff">
+           <div className="pffItem">
+	            <div>195</div>
+	            <div style={{fontSize:10,color:"gray"}}>Posts</div>
+            </div>
+            <div className="pffItem">
+	            <div>5126</div>
+             	<div style={{fontSize:10,color:"gray"}}>Followers</div>
+            </div>
+            <div className="pffItem">
+        	    <div>225</div>
+        	    <div style={{fontSize:10,color:"gray"}}>Following</div>
+            </div>
+          </div>
         </div>
         <div className="msg"></div>
         <div className="contact"></div>

@@ -41,8 +41,17 @@ body {
 
 .pff{
   flex:3;
-  flex-direction:row;
-  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ppfItem{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .showMoreBtn{
