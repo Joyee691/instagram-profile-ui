@@ -3,6 +3,9 @@ import "./styles.css";
 import { AiOutlineLeft } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 import { AiOutlineDown } from "react-icons/ai";
+import {GrGrid} from "react-icons/gr";
+import { FiMonitor } from "react-icons/fi";
+import { RiContactsLine } from "react-icons/ri";
 
 export default function ProfileTab() {
   {
@@ -52,8 +55,37 @@ export default function ProfileTab() {
           <button className="email">Email</button>
           <button className="suggest"><AiOutlineDown /></button>
         </div>
-        <div className="stories"></div>
-        <div className="buttons"></div>
+        <div className="stories">
+          <div className="storyItem">
+            <img className="storyImg"/>
+            <div className="storyInfo">1</div>
+          </div>
+          <div className="storyItem">
+	          <img className="storyImg"/>
+	          <div className="storyInfo">2</div>
+          </div>
+          <div className="storyItem">
+	          <img className="storyImg"/>
+	          <div className="storyInfo">3</div>
+          </div>
+          <div className="storyItem">
+          	<img className="storyImg"/>
+          	<div className="storyInfo">4</div>
+          </div>
+          <div className="storyItem">
+	          <img className="storyImg"/>
+	          <div className="storyInfo">5</div>
+          </div>
+          <div className="storyItem">
+          	<img className="storyImg"/>
+          	<div className="storyInfo">6</div>
+          </div>
+        </div>
+        <div className="buttons">
+          <button style={{borderBottom:"black solid 1px"}}><GrGrid /></button>
+          <button><FiMonitor /></button>
+          <button><RiContactsLine /></button>
+        </div>
         <div className="posts"></div>
         <button className="showMoreBtn" onClick={() => showMore()}>
           Show more posts
