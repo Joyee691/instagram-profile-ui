@@ -176,8 +176,8 @@ background-color:pink;
 }
 
 .postImgBox{
-  width:33vw;
-  height:33vw;
+  width:33.2vw;
+  height:33.2vw;
 }
 
 .postImg{
@@ -191,7 +191,7 @@ background-color:pink;
   width:100%;
   display: inline-block;
   padding: 6px 12px;
-  margin-bottom: 0;
+  margin: 3px 0;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.428571429;
@@ -205,6 +205,7 @@ background-color:pink;
   border-color: #357ebd;
   border: 1px solid transparent;
   border-radius: 4px;
+
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

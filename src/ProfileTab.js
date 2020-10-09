@@ -22,7 +22,10 @@ const images=[
 
 export default function ProfileTab() {
   {/* show more posts below */}
-  showMore = () => {};
+  showMore = () => {
+
+    return renderImgs();
+  };
 
   renderImgs=()=>{
     return images.map((img,index)=>{
@@ -110,7 +113,7 @@ export default function ProfileTab() {
           <button><RiContactsLine /></button>
         </div>
         <div className="posts">{this.renderImgs()}</div>
-        <button className="showMoreBtn" onClick={() => showMore()}>
+        <button className="showMoreBtn" onClick={() => this.showMore()}>
           Show more posts
         </button>
       </div>
