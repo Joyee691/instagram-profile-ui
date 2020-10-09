@@ -7,11 +7,20 @@ import {GrGrid} from "react-icons/gr";
 import { FiMonitor } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
 
+const images=[
+  
+];
+
+
 export default function ProfileTab() {
-  {
-    /* show more posts below */
-  }
+  {/* show more posts below */}
   showMore = () => {};
+
+  
+
+
+
+
 
   return (
     <div className="container">
