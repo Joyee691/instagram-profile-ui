@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  margin:10px 0;
   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 
@@ -21,6 +22,7 @@ a:hover, a:visited, a:link, a:active{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin:0 10px;
 }
 
 .header-right {
@@ -36,6 +38,7 @@ a:hover, a:visited, a:link, a:active{
 .info{
   display:flex;
   flex-direction: row;
+  margin:0 10px;
   width:100%;
 }
 
@@ -65,13 +68,15 @@ a:hover, a:visited, a:link, a:active{
 .msg{
   font-size:14px;
   line-height:1.5;
+  margin:0 10px;
 }
 
 .contactUs{
   display:flex;
   flex-direction: row;
   padding-top:5px;
-  width:100%;
+  width:96%;
+  margin:0 10px;
 }
 
 .follow{
@@ -109,6 +114,7 @@ a:hover, a:visited, a:link, a:active{
 }
 
 .suggest{
+  flex:1;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -129,6 +135,7 @@ a:hover, a:visited, a:link, a:active{
   white-space: nowrap;
   overflow-x: scroll;
   overflow-y:hidden;
+  margin:0 10px;
 }
 
 .storyItem{
@@ -161,9 +168,22 @@ background-color:pink;
   border:none;
 }
 
+.posts{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  
+}
 
+.postImgBox{
+  width:33vw;
+  height:33vw;
+}
 
-
+.postImg{
+  flex:1;
+  width:100%
+}
 
 
 .showMoreBtn {

@@ -8,7 +8,15 @@ import { FiMonitor } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
 
 const images=[
-  
+  require("./resource/img1.JPG"),
+  require("./resource/img2.JPG"),
+  require("./resource/img3.JPG"),
+  require("./resource/img4.JPG"),
+  require("./resource/img5.JPG"),
+  require("./resource/img6.JPG"),
+  require("./resource/img7.JPG"),
+  require("./resource/img8.JPG"),
+  require("./resource/img9.JPG")
 ];
 
 
@@ -16,10 +24,16 @@ export default function ProfileTab() {
   {/* show more posts below */}
   showMore = () => {};
 
-  
-
-
-
+  renderImgs=()=>{
+    return images.map((img,index)=>{
+      return(
+        <div key={index} className="postImgBox">
+          <img className="postImg" src={img} alt="post image" />
+        </div>
+      );
+    })
+    
+  }
 
 
   return (
@@ -95,7 +109,7 @@ export default function ProfileTab() {
           <button><FiMonitor /></button>
           <button><RiContactsLine /></button>
         </div>
-        <div className="posts"></div>
+        <div className="posts">{this.renderImgs()}</div>
         <button className="showMoreBtn" onClick={() => showMore()}>
           Show more posts
         </button>
