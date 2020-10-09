@@ -1,5 +1,6 @@
 # Instagram profile page
 - preview: https://vkjszypu3ixbajmh05tc7g-on.drv.tw/build/
+- if you use chrome, please open the developer tool and adjust the size to "iphone x" to get a better experience.
 
 ## run
 `npm install`
